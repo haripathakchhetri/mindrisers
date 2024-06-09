@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <form action="mailto:pathakhari496@gmail.com?subject=hi" method="post" enctype="text/plain">
+        <p>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter Username" required>
+        </p>
+
+        <p>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Enter Email" required>
+        </p>
+
+        <p>
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="Enter your Phone number" maxlength="10">
+        </p>
+
+        <p>
+        <h3>Select your Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        </p>
+
+        <p>
+        <h3>Select your Hobbies</h3>
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" name="hobbies" value="sing">
+
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" name="hobbies" value="dance">
+        </p>
+
+        <p>
+          <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+        </p>
+
+        <p>
+        <h4>Select Your Country</h4>
+        <select name="country" id="">
+          <option value="nepal">Nepal</option>
+          <option value="india">India</option>
+          <option value="china">China</option>
+        </select>
+        </p>
+
+
+        <p>
+        <h3>Select Your Country</h3>
+        <select name="country" id="">
+          <optgroup label="Asia">
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+          </optgroup>
+
+          <optgroup label="Europe">
+            <option value="france">France</option>
+            <option value="portugal">Portugal</option>
+          </optgroup>
+        </select>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+
+</html>
